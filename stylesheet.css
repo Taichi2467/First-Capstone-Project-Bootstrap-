@@ -1,0 +1,100 @@
+/* Color Palette */
+/* https://colorhunt.co/palette/e4f9f530e3ca11999e40514e */
+/* #7743DB */
+
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #40514E, #30E3CA, #7743DB);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background-color: #E4F9F5;
+}
+
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 6vmax;
+    color: #40514E;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.9vmax;
+    color: #40514E;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vmax;
+    color: #40514E;
+}
+
+p {    
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vmax;
+    color: #40514E;
+}
+
+a {    
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vmax;
+    color: #40514E;
+}
+
+#section-title h1, #section-title h2 {
+    color: #E4F9F5;
+}
+
+#section-about-me h3 {
+    color: #E4F9F5;
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-position: center;
+}
+
+.btn {
+    background-color: #30E3CA;
+    border-color: #30E3CA;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #11999E;
+    border-color: #11999E;
+    color: #E4F9F5;
+}
+
+.nav-link {
+    color: #E4F9F5;
+}
+
+.nav-link:hover {
+    color: #40514E;
+}
+
+#section-footer p{
+    color: #E4F9F5;
+}
+
+h2.border-bottom {
+    border-bottom-color: #30E3CA;
+}
